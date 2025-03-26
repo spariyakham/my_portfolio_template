@@ -15,7 +15,7 @@ const Contact = () => {
     <main className="contact-container">
       <section className="border border-2 p-2 rounded-md form-container">
       <h2 className="text-2xl font-medium text-center">Contact Form</h2>
-      <p className="text-lg text-center">If you are interested in my work, fill out this form below</p>
+      <p className="text-lg text-center">If you are interested in my work or want to get in contact, please fill out this contact form below</p>
       <form onSubmit={handleSubmit(onSubmit)}>
       <label htmlFor="email">
           <p>Your Email</p>
@@ -42,7 +42,7 @@ const Contact = () => {
           <textarea
           {...register("body", { required: true })}
           id="body" 
-          placeholder="Enter your message here"
+          placeholder="Enter your message here..."
           required
           />
         </label>
