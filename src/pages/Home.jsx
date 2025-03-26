@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import PlaceholderHero from '../assets/placeholder_hero_background.jpg'
 
 const fullName = 'Stephenney Ariyakham';
-const personalQuote = '"Fall down seven times, stand up eight.""';
+const personalQuote = '"Fall down seven times, stand up eight." -Japanese proverb';
 const professionalSummary = 'Replace with your professional summary';
 
 const Home = () => {
